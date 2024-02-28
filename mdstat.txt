@@ -1,0 +1,15 @@
+Personalities : [raid1] [raid10] 
+md10 : active raid10 sdt[7] sds[6] sdp[5] sdn[4] sdm[3] sdl[2] sdk[1] sdj[0]
+      11720536064 blocks super 1.2 512K chunks 2 near-copies [8/8] [UUUUUUUU]
+      [>....................]  resync =  0.0% (1856704/11720536064) finish=1367.4min speed=142823K/sec
+      bitmap: 88/88 pages [352KB], 65536KB chunk
+
+md0 : active raid10 sdf1[5] sdh1[7] sde1[4] sdc1[2] sda1[0] sdd1[3] sdg1[11] sdb1[9]
+      11720531968 blocks super 1.2 512K chunks 2 near-copies [8/8] [UUUUUUUU]
+      bitmap: 0/88 pages [0KB], 65536KB chunk
+
+md5 : active raid1 sdo1[0] sdr1[1]
+      2930132992 blocks super 1.2 [2/2] [UU]
+      bitmap: 0/22 pages [0KB], 65536KB chunk
+
+unused devices: <none>
