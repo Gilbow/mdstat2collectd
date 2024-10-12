@@ -1,0 +1,7 @@
+
+# 
+# --activity-keys -> <host>/<activity>-<raid_name>/{percent,bitrate,timeleft} 
+# --single-key -> <host>/<raid_name>/{percent,bitrate,timeleft} 
+<Plugin exec>
+        Exec nobody "/bin/mdstat2collectd" "--file" "/proc/mdstat" "--single-key"
+</Plugin>
